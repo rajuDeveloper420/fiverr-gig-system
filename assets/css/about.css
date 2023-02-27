@@ -1,0 +1,71 @@
+#about{
+  padding: 120px 0px 70px;
+}
+.about-img {
+    position: relative;
+    /* margin-top: 24px; */
+    background: url('../img/about/about bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-align: center;
+}
+
+.about-img img{
+  width: 80%;
+}
+
+
+.about-content{
+    text-align: right;
+}
+.about-content h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0067db;
+    padding-bottom: 5px;
+}
+.single-content{
+    padding-bottom: 15px;
+}
+.single-content h2{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.single-content p{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: justify;
+}
+.about-btn a{
+    padding: 10px 35px;
+    background: linear-gradient(#007be2,#00b7f6);
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+.about-btn a:hover{
+    color: rgb(219, 214, 214);
+}
+.about-details h3{
+    font-weight: 800;
+    font-size: 40px;
+    color: #0077db;
+    margin-top: 15px;
+    line-height: 0.8;
+}
+.about-details p{
+    font-size: 22px;
+    color: #f78f1e;
+    font-weight: 700;
+}
+
+@media (max-width: 575px) {
+    .about-details h3{
+        font-size: 24px;
+    }
+}

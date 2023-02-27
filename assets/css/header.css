@@ -1,0 +1,246 @@
+.offcanvas-active{
+  overflow:hidden;
+}
+.screen-overlay {
+  width:0%;
+  height: 100%;
+  z-index: 30;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity:0;
+  visibility:hidden;
+  /* background-color: rgba(34, 34, 34, 0.6); */
+  background-color: #0080E4;
+  transition:opacity .2s linear, visibility .1s, width 1s ease-in;
+   }
+.screen-overlay.show {
+    transition:opacity .5s ease, width 0s;
+    opacity:1;
+    width:100%;
+    visibility:visible;
+}
+
+.offcanvas{
+  width:350px;
+  visibility: hidden;
+  transform:translateX(-100%);
+  transition:all .2s;
+  border-radius:0; 
+  box-shadow: 0 5px 10px rgba(0,0,0, .2);
+  display:block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1200;
+  /* background-color: #fff; */
+  background-color: #0080E4;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.list-group-item {
+    color: #f78f1e;
+    text-decoration: none;
+    background-color: #0080E4;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.offcanvas.offcanvas-right {
+   right: 0;
+   left: auto;
+   transform: translateX(100%); 
+ }
+
+.offcanvas.show{
+  visibility: visible;
+    transform: translateX(0);
+    transition: transform .2s;
+}
+
+.offcanvas .btn-close{ position: absolute; right:15px; top:15px;color: #f78f1e; }
+
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 16px 0;
+  background: #0080E4;
+}
+
+#header.header-scrolled, #header.header-inner-pages {
+  background: rgba(40, 58, 90, 0.9);
+}
+#header .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+#header .logo a {
+  color: #fff;
+}
+#header .logo img {
+  max-height: 40px;
+}
+
+.search{
+  display: inline-block;
+}
+.cart{
+  display: inline-block;
+}
+
+.search input{
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+.search form{
+    position: relative;
+}
+.search form i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #f78f1e;
+    margin-left: 8px;
+}
+.search input::placeholder{
+    text-align:center;
+    color: #d2d2d2;
+}
+.search{
+    margin-top: 6px;
+    color: white;
+}
+
+.cart{
+  margin-top: 5px;
+}
+.cart a{
+    margin-right: 5px;
+    color: #f78f1e;
+    font-weight: 600;
+}
+.add-to-cart{
+  position: relative;
+}
+
+.add-to-cart span {
+    position: absolute;
+    right: 3px;
+    top: -15px;
+    background-color: #f78f1e;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 15px;
+    transition: all linear 0.3s;
+    color: #fff;
+}
+.cart a i{
+    color: #f78f1e;
+    margin-right: 22px;
+    font-size: 22px;
+    transition: all linear 0.3s;
+}
+.cart a i:hover{
+    color: #47b2e4;
+}
+
+.navbar-toggler-icon{
+  color: #f78f1e;
+  font-size: 22px;
+}
+.three-bar{
+  padding: 0px;
+  padding-right: 50px;
+}
+
+.header-right{
+  text-align: end;
+}
+.mobile-menu{
+  display: none;
+}
+/*====End menu bar====*/
+
+
+@media (max-width: 991px) {
+  .logo{
+    justify-content: center;
+    display: flex;
+  }
+  .search{
+    display: inline-block;
+    float: left;
+  }
+  .cart a:first-child{
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .header{
+    display: none;
+  }
+  .mobile-menu{
+    display: block;
+  }
+  .mobile-menu .logo{
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  .mobile-second-menu{
+    background: #0080E4;
+    padding: 12px 20px;
+    color: #f78f1e;
+  }
+  .mobile-second-menu a{
+    color: #f78f1e;
+    font-size: 22px;
+    padding-right: 10px;
+  }
+  .mobile-second-menu .three-bar{
+    padding-right: 0px;
+  }
+  .add-to-cart span {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+  }
+  .mobile-second-row{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .mobile-second-row button{
+    float: right;
+  }
+  .mobile-menu .search{
+    width: 95%;
+    margin: 10px 15px 5px;
+  }
+  .mobile-menu .search input{
+    width: 95%;
+    border: 1px solid #0080E4;
+  }
+
+}

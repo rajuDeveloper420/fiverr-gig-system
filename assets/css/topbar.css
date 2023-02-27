@@ -1,0 +1,47 @@
+#topbar {
+    color: rgb(248, 246, 246);
+    padding: 10px 0px 8px;
+    background-color: white;
+}
+.social-icon i{
+    color: #0055bb;
+    margin-right: 5px;
+    font-size: 17px;
+    transition: all linear 0.3s;
+}
+.social-icon i:hover{
+    color: #f78f1e;
+}
+
+.topbar-contact a{
+    color: #0055bb;
+    font-size: 17px;
+}
+
+.contact-topbar{
+    margin-right: 15px;
+}
+
+.topbar-contact:hover{
+    color: #f78f1e;
+    transition: all linear 0.3s;
+}
+
+
+@media (max-width: 575px) {
+    .social-icon i{
+        font-size: 11px;
+        margin-right: 3px
+    }
+    .contact-topbar{
+        margin-right: 2px;
+    }
+    .topbar-contact a{
+        font-size: 11px !important;
+    }
+    .topbar-row{
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 4px
+    }
+}

@@ -1,0 +1,131 @@
+@import 'topbar.css';
+@import 'header.css';
+@import 'banner.css';
+@import 'about.css';
+@import 'service.css';
+@import 'innovation.css';
+@import 'whyhire.css';
+@import 'why-us.css';
+@import 'blog.css';
+@import 'blogcategory.css';
+@import 'blogdetails.css';
+@import 'blogresponsive.css';
+@import 'query.css';
+@import 'benifit.css';
+@import 'hire.css';
+@import 'contact.css';
+@import 'marketing_seo.css';
+@import 'gig_details.css';
+@import 'footer.css';
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #101010;
+}
+
+:root {
+  --heading-color: #0077db;
+  --heading-child: #f78f1e;
+  --top-color: #0055bb;
+}
+
+a {
+  color: #47b2e4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #73c5eb;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+}
+
+section{
+  min-height: 100vh;
+  display: block;
+  padding: 30px 0px;
+}
+
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #37517e;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #37517e;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #47b2e4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top:hover {
+  background: #6bc1e9;
+  color: #fff;
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+

@@ -1,0 +1,51 @@
+.why-hire-tittle{
+    padding-top: 10px;
+}
+.why-hire-tittle h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0077db;
+    line-height: 13px;
+}
+.why-hire-tittle h4{
+    color: #0077db;
+    font-weight: 700;
+    font-size: 22px;
+}
+.why-hire-tittle p {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 5px;
+    /* padding-bottom: 20px; */
+    line-height: 18px;
+}
+.why-hire-content p {
+    color: #000000ad;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .why-hire-tittle h2{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 575px) {
+    .why-hire-tittle h2{
+        font-size: 17px;
+    }
+    .why-hire-tittle h4{
+        font-size: 15px;
+    }
+    .why-hire-tittle p{
+        font-size: 13px;
+        text-align: justify;
+    }
+    .why-hire-content p{
+        font-size: 12px;
+        text-align: justify;
+    }
+}

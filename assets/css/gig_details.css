@@ -1,0 +1,112 @@
+.gig_title h1{
+	font-size: 28px;
+	font-weight: 700;
+}
+.gig_share{
+	text-align: right;
+}
+.gig_share a{
+	font-size: 20px;
+	margin-right: 8px;
+}
+.gig_user_name{
+	font-weight: 700;
+	margin-left: 5px;
+}
+.gig_star_review .fa-star{
+	color: #fff;
+	background-color: #ed9211;
+	padding: 3px;
+	font-size: 14px;
+}
+.review_content{
+	color: #0077db;
+	font-weight: 800;
+}
+
+.gig_star_review img{
+	border-radius: 50%;
+	border: 1px solid #ed9211;
+	cursor: pointer;
+}
+
+.gig_details_page .marketing-sec p{
+	text-align: start;
+}
+.right_gig_details{
+	background-color: #fff;
+	box-shadow: 1px 2px 4px 2px rgb(187 187 187 / 75%);
+    -webkit-box-shadow: 1px 2px 4px 2px rgb(187 187 187 / 75%);
+    -moz-box-shadow: 1px 2px 4px 2px rgba(187,187,187,0.75);
+    max-height: 690px;
+}
+
+.gig_details_page .checkbox-tittle h3{
+	font-size: 15px;
+}
+
+.gig_details_page .checkbox-tittle p {
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 11px;
+    text-align: justify;
+}
+
+.gig_details_page .service-tittle {
+    font-size: 17px;
+}
+
+.gig_details_page .marketing-sec p {
+    font-size: 30px;
+}
+.gig_details_page .service-paragraph {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.gig_details_page #desktop_marketing_seo_div h3{
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 4px;
+}
+
+.gig_details_page .bg_color{
+	background: #ebebeb;
+	padding: 5px 0px;
+}
+.gig_details_page .check_div, select {
+    /* background-color: none; */
+    padding: 0;
+    margin-bottom: 19px;
+}
+
+.gig_details_page .check_box {
+    height: 9px;
+    width: 9px;
+}
+
+.gig_details_page select{
+	font-size: 9px;
+}
+.gig_details_page .select_plan{
+	font-size: 9px;
+}
+.gig_details_page .total_amount {
+	font-size: 10px;
+}
+
+.project_details_gig h2{
+	font-size: 28px;
+	font-weight: 700;
+	padding: 20px 0px;
+	text-transform: uppercase;
+}
+
+
+.gig_details_page .nav-item{
+	width: 33.33%;
+}
+.gig_details_page .nav-pills .nav-link, .nav-pills .show>.nav-link {
+    font-size: 17px;
+    font-weight: 700;
+}

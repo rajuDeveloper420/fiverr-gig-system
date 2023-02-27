@@ -1,0 +1,28 @@
+#blog .section-tittle{
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+.blog-content a h3 {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    color: black;
+    transition: all linear 0.3s;
+}
+.blog-content p {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.blog-content a h3:hover{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+@media (max-width: 575px) {
+    .blog-content p{
+        text-align: justify;
+    }
+}

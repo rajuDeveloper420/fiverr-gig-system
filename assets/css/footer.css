@@ -1,0 +1,223 @@
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  font-size: 14px;
+  background: #e1e1e1;
+}
+#footer .footer-newsletter {
+  padding: 50px 0 20px;
+  background: #e1e1e1;
+  font-size: 15px;
+  color: #444444;
+  border-top: 10px solid #0979ff;
+  position: relative;
+}
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+#footer .footer-newsletter form {
+  margin-top: 5px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+#footer .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+  border: none;
+  outline: none;
+}
+#footer .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #47b2e4;
+  color: #fff;
+  transition: 0.3s;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(#f47b1e,#f0ae03);
+}
+#footer .footer-newsletter form input[type=submit]:hover {
+  background: linear-gradient(#f47b1e,#f0ae03);
+}
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #6f6f6f;
+}
+#footer .footer-top .footer-contact .footer-details {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #37517e;
+}
+.footer-details img {
+  margin-top: -28px;
+  margin-bottom: 18px;
+}
+.footer-contact{
+  font-size: 14px;
+  margin-bottom: 18px;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-contact a{
+  color: #fff;
+}
+.footer-contact a:hover{
+  color: #47b2e4;
+  transition: all linear 0.3s;
+}
+#footer .footer-top .footer-links2 h4{
+  padding-bottom:0px ;
+}
+.footer-contact strong{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#footer .footer-top .footer-details p {
+  font-size: 13px;
+  margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  padding-right: 74px;
+}
+#footer .footer-top .footer-details p:hover{
+  color: #47b2e4;
+  transition: 0.3s;
+}
+#footer .footer-top h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+.footer-links h4{
+  font-family: 'Montserrat', sans-serif;
+}
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #47b2e4;
+  font-size: 18px;
+  line-height: 1;
+}
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+#footer .footer-top .social-links a {
+  margin-right: 4px;
+}
+.footer-details .social-links{
+  padding-top: 10px;
+}
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #000000;
+}
+#footer .copyright {
+  float: left;
+}
+#footer .credits {
+  float: right;
+  font-size: 13px;
+}
+#footer .credits a {
+  transition: 0.3s;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+#footer .credits a:hover{
+  color: #53c2ef;
+}
+.copyright span{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.footer-links strong{
+  display: block;
+  color: #53c2ef;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #footer .copyright, #footer .credits {
+    text-align: center;
+    float: none;
+  }
+  #footer .credits {
+    padding-top: 4px;
+  }
+}
+
+@media (max-width: 991px) {
+  .message-logo{
+    width: 170px !important;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .message-logo{
+    width: 100px !important;
+    right: 150px !important;
+    top: -60px !important;
+  }
+}
+
+.message-logo{
+  position: absolute;
+  top: -80px;
+  right: 175px;
+  width: 200px;
+}

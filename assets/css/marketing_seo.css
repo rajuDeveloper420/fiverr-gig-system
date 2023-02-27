@@ -1,0 +1,310 @@
+.marketing-sec{
+    text-align: center;
+}
+.marketing-sec h2 {
+    margin-bottom: 0px; 
+    padding-bottom: 0px;
+    line-height: 0.8;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #0077db;
+}
+.marketing-sec p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ed9211;
+}
+
+.service-tittle{
+    color: #0077db;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.service-paragraph{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 20px 15px 0px;
+}
+
+.checkbox-tittle h3{
+    color: #11b3f0;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+.checkbox-tittle p{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: justify;
+}
+
+.service-name h3 {
+    text-transform: none;
+    color: #181818;
+    font-weight: 700;
+    padding-bottom: 11px;
+    font-size: 23px;
+}
+
+.service-name{
+    padding-top: 30px;
+}
+
+/* The container */
+.check_box {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  /* margin-bottom: 12px; */
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 25px;
+  width: 25px;
+  margin: 7px auto;
+}
+
+/* Hide the browser's default checkbox */
+.check_box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #cccccc;
+    border: 2px solid #707070;
+}
+
+/* On mouse-over, add a grey background color */
+.check_box:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check_box input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check_box input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check_box .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.check_div,select{
+    background-color: #ebebeb;
+    padding: 1px 0px;
+}
+
+.select {
+    padding: 8px 5px;
+    outline: none;
+    border: none;
+    background-color: #cccccc;
+    color: #585858;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+    margin: 2px 0;
+}
+
+.select option {
+    font-size: 14px;
+    background-color: #cccccc;
+    color: #585858;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 5px;
+}
+
+.total_amount{
+    padding: 5px 5px;
+    outline: none;
+    border: none;
+    background-color: #cccccc;
+    color: #585858;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+    margin: 8px 0 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.select_plan{
+    padding: 5px 5px;
+    background-color: #00aeef;
+    color: #FFF;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+     font-size: 16px;
+}
+
+.custom-quote h3 {
+    font-size: 17px;
+    color: #585858;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.right-custom textarea {
+    width: 100%;
+    border: 2px solid #b7b7b7;
+    background-color: #ebebeb;
+    padding: 6px 12px;
+    margin-bottom: 5px;
+    outline: none;
+}
+.right-custom textarea::placeholder{
+    font-weight: normal;
+    font-size: 21px;
+    color: #b2b2b2;
+    font-family: 'Raleway', sans-serif;
+}
+.custom-input input::placeholder{
+    font-weight: normal;
+    font-size: 21px;
+    color: #b2b2b2;
+    font-family: 'Raleway', sans-serif;
+}
+.custom-input input{
+    width: 100%;
+    border: 2px solid #b7b7b7;
+    background-color: #ebebeb;
+    padding: 8px 12px;
+    outline: none;
+}
+
+.send_button {
+    background-color: #00aeef;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all linear 0.3s;
+}
+
+#mobile_marketing_seo_div{
+    display: none;
+}
+
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    font-size: 25px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #0077db;
+    background-color: #fff;
+    border-bottom: 1px solid #0077db;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.service_name_mobile{
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+.service_name_mobile li{
+    font-size: 20px;
+    padding: 6px 30px;
+    font-weight: 700;
+}
+
+.service_name_mobile .fa-check{
+    color: green;
+    margin-right: 5px;
+}
+.select_month{
+    width: 100%;
+    background-color: #cccccc;
+    padding: 5px;
+}
+.custom_check{
+    width: 20px;
+    height: 15px;
+}
+@media (max-width: 991px) {
+    #desktop_marketing_seo_div{
+        display: none;
+    }
+    #mobile_marketing_seo_div{
+        display: block;
+    }
+    .mobile_tabs{
+        width: 100%;
+        padding: 0px;
+        border: 1px solid #cccccc;
+    }
+    .nav-item{
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        width: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    .email_box{
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 406px) {
+    .marketing-sec h2{
+        font-size: 22px;
+    }
+    .marketing-sec p{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .nav-pills .nav-link, .nav-pills .show>.nav-link {
+        font-size: 13px;
+    }
+    .service_name_mobile li{
+        font-size: 14px;
+    }
+}

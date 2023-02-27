@@ -1,0 +1,53 @@
+#hire {
+    background-image: url('../img/banner/Web theme hemeel home page (2).png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 4%;
+}
+.hire-tittle h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #fff;
+}
+.hire-content {
+    padding-top: 50px;
+}
+
+.hire-content h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.hire-img {
+    padding-top: 50px;
+    width: 75%;
+    margin: 0px auto;
+} 
+.hire-content p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+@media (max-width: 575px) {
+    .hire-tittle h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .hire-content{
+        padding-top: 15px
+    }
+    .hire-content h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .hire-content p{
+        font-size: 13px;
+    }
+}
